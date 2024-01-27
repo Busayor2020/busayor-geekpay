@@ -6,7 +6,7 @@ import { DownloadIcon, PrinterIcon } from "lucide-react"
 
 const Invoice = ({ data }: any) => {
     return (
-        <div className="w-full p-4 rounded-lg shadow-md border">
+        <div className="w-full p-4 rounded-lg shadow-md border overflow-x-auto md:overflow-visible">
             <div className="flex justify-between items-center mb-6">
                 <h1 className="text-2xl font-bold  text-primary">Invoice</h1>
                 <div className="flex space-x-4">

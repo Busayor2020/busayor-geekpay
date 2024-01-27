@@ -116,7 +116,7 @@ const Mobilenav = () => {
                             />
                         </Link>
                     </div>
-                    {/* <DropdownMenu>
+                    { <DropdownMenu>
                         <DropdownMenuTrigger>
                             <div className="flex items-center space-x-2 border p-2 rounded-full">
                                 <Avatar>
@@ -138,7 +138,7 @@ const Mobilenav = () => {
                             <DropdownMenuItem>Team</DropdownMenuItem>
                             <DropdownMenuItem>Subscription</DropdownMenuItem>
                         </DropdownMenuContent>
-                    </DropdownMenu> */}
+                    </DropdownMenu>}
                 </SheetContent>
             </Sheet>
         </nav>

@@ -78,7 +78,7 @@ const OrdersTable = () => {
             <div className='flex items-center justify-between mb-4'>
                 <p className='text-lg pl-4 capitalize'>last orders</p>
 
-                <Link href='/' className='text-lg text-[#34CAA5]'>
+                <Link href='/' className='text-lg text-[#34CAA5] hover:bg-opacity-30 hover:bg-gray-400 rounded-full p-2 hover:text-black'>
                     See All
                 </Link>
             </div>
